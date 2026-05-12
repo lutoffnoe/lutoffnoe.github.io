@@ -53,6 +53,16 @@ body {
             text-align: center;
             box-sizing: content-box;
         }
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            text-decoration: none;
+            img {
+                width: 50px;
+            }
+        }
     }
 
     #Competences {
