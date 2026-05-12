@@ -36,6 +36,7 @@ body {
             align-items: center;
             border: 2px solid red;
             padding: 15px;
+            gap: 10px;
 
             background-color: rgba(255, 0, 0, 0.2);
         }
@@ -55,10 +56,12 @@ body {
         }
 
         a {
+            width: 75%;
             display: flex;
             align-items: center;
             justify-content: space-around;
             text-decoration: none;
+            color: red;
             img {
                 width: 50px;
             }
