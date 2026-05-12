@@ -1,0 +1,30 @@
+Contacts:
+    Me présenter
+        qui je suis
+        quelles etudes je fais
+        où
+    Diplomes obtenus
+
+Compétences:
+    Reprendre l'ensemble d'une section Compétence, voir feuille de prise de notes (verso en bas)
+
+Projets:
+    Cartes
+        au clique -> Retournement/agrandissement
+                  -> "Pop Up"
+        Liens
+            Flip 
+                https://www.w3schools.com/howto/howto_css_flip_card.asp
+                https://stackoverflow.com/questions/41461101/flip-a-3d-card-with-css
+            Expand
+                https://www.geeksforgeeks.org/css/how-to-expand-panel-on-hover-in-css/
+                
+
+
+
+Général:
+    Réduire le texte -> Augmenter information visuelle
+    Les coins ne sont vraiment pas obligatoires
+        image-border marche partout (en gros)
+    Ecrire mon année d'études (niveau)
+            possiblement le metier que je vise
