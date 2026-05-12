@@ -18,7 +18,12 @@ Projets:
                 https://stackoverflow.com/questions/41461101/flip-a-3d-card-with-css
             Expand
                 https://www.geeksforgeeks.org/css/how-to-expand-panel-on-hover-in-css/
-                
+        Pour la taille  
+            overflow-y : auto;
+            ou
+            quand hover     
+                height : 400px;
+            sur la face plus grande
 
 
 
@@ -28,3 +33,5 @@ Général:
         image-border marche partout (en gros)
     Ecrire mon année d'études (niveau)
             possiblement le metier que je vise
+    transpiler SCSS vers CSS
+        LiveSASS
