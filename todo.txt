@@ -7,6 +7,7 @@ Contacts:
 
 Compétences:
     Reprendre l'ensemble d'une section Compétence, voir feuille de prise de notes (verso en bas)
+    Reprendre les section (je peux utiliser les BALISES header, footer, aside, etc)
 
 Projets:
     Cartes
