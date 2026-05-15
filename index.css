@@ -186,7 +186,9 @@ body {
             justify-content: center;
 
             footer {
-               flex-wrap: wrap; 
+               ul {
+                flex-wrap: wrap; 
+               }
             }
         }
 
