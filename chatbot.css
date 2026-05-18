@@ -1,0 +1,201 @@
+body {
+    background-color: black;
+    background-size: cover;
+    background-clip: content-box;
+    box-sizing: border-box;
+    position: relative;
+    color: red;
+    margin: 15px;
+    margin-right: 0px;
+    padding: 25px;
+    padding-left: 15px;
+    padding-right: 0px;
+    border: 5px solid red;
+    border-right: none;
+    border-image: url("../img/border.png") 100;
+    border-image-width: 5vh 5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+
+    #informations {
+        /*background-color: yellow;*/
+        flex-basis: 25%;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+
+        section {
+            width: 75%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid red;
+            background-color: rgba(255, 0, 0, 0.2);
+        }
+
+        img {
+            width: 75%;
+        }
+
+        p {
+            background-color: rgba(255, 0, 0, 0.2);
+            width: 75%;
+            border: 2px solid red;
+            text-align: center;
+            text-wrap: wrap;
+        }
+
+        a {
+            width: 75%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            text-decoration: none;
+            color: red;
+            margin: 5px;
+
+            img {
+                width: 50px;
+            }
+        }
+    }
+
+    #Competences {
+        /*background-color: blue;*/
+        flex-basis: 30%;
+        flex-shrink: 0;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+
+        >section {
+            border: 2px solid red;
+            background-color: rgba(255, 0, 0, 0.2);
+
+
+            header {
+                text-align: center;
+                border-bottom: solid 1px red;
+                margin: 0px;
+                padding: 5px;
+                font-weight: bolder;
+            }
+
+            .CompetencesMain {
+                display: flex;
+
+                aside {
+                    flex-basis: 80%;
+                    border-right: solid 1px red;
+
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+                        text-align: center;
+                        align-items: center;
+                        gap: 15px;
+                    }
+                }
+
+                section {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+            footer {
+                border-top: solid 1px red;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                ul {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    gap: 3px;
+                }
+
+            }
+        }
+
+        ul {
+            list-style: none;
+            padding: 0px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    }
+
+
+
+    #Projets {
+        /*background-color: purple;*/
+        margin-right: 15px;
+        flex-basis: 35%;
+        min-width: 25%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: start;
+        flex-grow: 2;
+        padding: 0px;
+        gap: 15px;
+
+        section {
+            background-color: rgba(255, 0, 0, 0.2);
+            border: 2px solid red;
+            text-align: center;
+
+            h2 {
+                margin: 0px;
+                padding: 5px;
+                border-bottom: 2px solid red;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+
+        #Informations {
+            img {
+                width: 25%;
+            }
+        }
+
+        #Competences {
+            margin-right: 0px;
+            margin-bottom: 0px;
+            width: 80%;
+            justify-content: center;
+
+            footer {
+               ul {
+                flex-wrap: wrap; 
+               }
+            }
+        }
+
+        #Projets {
+            margin-right: 0px;
+            width: 80%;
+            justify-content: center;
+        }
+    }
+}

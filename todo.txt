@@ -1,13 +1,13 @@
 Contacts:
     Me présenter
-        qui je suis
-        quelles etudes je fais
-        où
+X        qui je suis
+X        quelles etudes je fais
+XX        où
     Diplomes obtenus
 
-Compétences:
-    Reprendre l'ensemble d'une section Compétence, voir feuille de prise de notes (verso en bas)
-    Reprendre les section (je peux utiliser les BALISES header, footer, aside, etc)
+XCompétences:
+X    Reprendre l'ensemble d'une section Compétence, voir feuille de prise de notes (verso en bas)
+X    Reprendre les section (je peux utiliser les BALISES header, footer, aside, etc)
 
 Projets:
     Cartes
@@ -30,11 +30,11 @@ Projets:
 
 Général:
     Réduire le texte -> Augmenter information visuelle
-    Les coins ne sont vraiment pas obligatoires
-        image-border marche partout (en gros)
-    Ecrire mon année d'études (niveau)
-            possiblement le metier que je vise
+X    Les coins ne sont vraiment pas obligatoires
+X        image-border marche partout (en gros)
+X    Ecrire mon année d'études (niveau)
+X            possiblement le metier que je vise
     transpiler SCSS vers CSS
         LiveSASS
-    Titre par colonne
+X    Titre par colonne
     1 page par projet, Reprendre page principale
