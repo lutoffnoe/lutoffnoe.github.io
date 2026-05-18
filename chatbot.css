@@ -28,6 +28,21 @@ body {
         margin-top: 10px;
     }
 
+    #Retour {
+        position: fixed;
+        top: 50px;
+        left: 50px;
+
+        button {
+            background-color: rgba(255, 0, 0, 0.5);
+            color: #4bd8ec;
+            font-size: 25pt;
+            border: 1px solid rgba(255, 0, 0, 0.5);
+            border-top-left-radius: 25%;
+            border-bottom-right-radius: 25%;
+        }
+    }
+
     aside {
         /*background-color: yellow;*/
         flex-basis: 20%;
