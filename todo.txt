@@ -36,3 +36,5 @@ Général:
             possiblement le metier que je vise
     transpiler SCSS vers CSS
         LiveSASS
+    Titre par colonne
+    1 page par projet, Reprendre page principale
