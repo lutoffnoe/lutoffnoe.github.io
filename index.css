@@ -113,7 +113,16 @@ body {
                         text-align: center;
                         align-items: center;
                         gap: 15px;
+
+
                     }
+
+
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #4bd8ec;
                 }
 
                 section {
@@ -174,16 +183,21 @@ body {
             color: red;
         }
 
-        section {
-            background-color: rgba(255, 0, 0, 0.2);
-            border: 2px solid red;
-            text-align: center;
+        a {
+            text-decoration: none;
+            color: #4bd8ec;
 
-            h2 {
-                margin: 0px;
-                padding: 5px;
-                border-bottom: 2px solid red;
-                color: red;
+            section {
+                background-color: rgba(255, 0, 0, 0.2);
+                border: 2px solid red;
+                text-align: center;
+
+                h2 {
+                    margin: 0px;
+                    padding: 5px;
+                    border-bottom: 2px solid red;
+                    color: red;
+                }
             }
         }
     }
