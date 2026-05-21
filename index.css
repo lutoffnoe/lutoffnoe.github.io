@@ -39,6 +39,7 @@ body {
         }
 
         img {
+            margin-top: 15px;
             width: 75%;
         }
 
@@ -113,11 +114,7 @@ body {
                         text-align: center;
                         align-items: center;
                         gap: 15px;
-
-
                     }
-
-
                 }
 
                 a {
@@ -130,6 +127,7 @@ body {
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
+                    width: 25%;
                 }
             }
 

@@ -38,3 +38,6 @@ X            possiblement le metier que je vise
         LiveSASS
 X    Titre par colonne
     1 page par projet, Reprendre page principale
+    Mon travail du Chatbot
+    Relecture
+
