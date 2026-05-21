@@ -128,6 +128,15 @@ body {
                     justify-content: center;
                     align-items: center;
                     width: 25%;
+
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+                        text-align: center;
+                        align-items: center;
+                        gap: 15px;
+                        padding: 5px;
+                    }
                 }
             }
 
