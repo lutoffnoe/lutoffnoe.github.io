@@ -40,6 +40,8 @@ X    Titre par colonne
     1 page par projet, Reprendre page principale
     Mon travail du Chatbot
     Reprendre Mon Travail de BDD
+    Durée du projet Econocom
     Le bouton retour des pages de projets bouge
+    Reprendre l'ensemble des liens entre les projets et les Compétences
     Relecture
 
