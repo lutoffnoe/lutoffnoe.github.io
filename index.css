@@ -138,6 +138,8 @@ body {
                         padding: 5px;
                     }
                 }
+
+                
             }
 
             footer {
@@ -164,6 +166,10 @@ body {
             padding: 0px;
             margin-top: 5px;
             margin-bottom: 5px;
+        }
+
+        img {
+            width: 75px;
         }
     }
 

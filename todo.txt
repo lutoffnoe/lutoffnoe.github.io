@@ -10,7 +10,7 @@ X    Reprendre l'ensemble d'une section Compétence, voir feuille de prise de no
 X    Reprendre les section (je peux utiliser les BALISES header, footer, aside, etc)
 
 Général:
-    Réduire le texte -> Augmenter information visuelle
+X   Réduire le texte -> Augmenter information visuelle
 X    Les coins ne sont vraiment pas obligatoires
 X        image-border marche partout (en gros)
 X    Ecrire mon année d'études (niveau)
@@ -25,6 +25,7 @@ X   1 page par projet, Reprendre page principale
 X   Le bouton retour des pages de projets bouge
 X   Reprendre l'ensemble des liens entre les projets et les Compétences
     Relecture
+    Quelles techno pour comp 5 et 6 ?
 
 
 Si le temps:    
