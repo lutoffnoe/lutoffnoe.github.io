@@ -26,6 +26,7 @@ X   Le bouton retour des pages de projets bouge
 X   Reprendre l'ensemble des liens entre les projets et les Compétences
     Relecture
     Quelles techno pour comp 5 et 6 ?
+    Faire en sorte que TOUS les logos soient des liens vers les pages des techno
 
 
 Si le temps:    
