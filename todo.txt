@@ -41,7 +41,7 @@ X    Titre par colonne
     Mon travail du Chatbot
     Reprendre Mon Travail de BDD
     Durée du projet Econocom
-    Le bouton retour des pages de projets bouge
+X   Le bouton retour des pages de projets bouge
     Reprendre l'ensemble des liens entre les projets et les Compétences
     Relecture
 
