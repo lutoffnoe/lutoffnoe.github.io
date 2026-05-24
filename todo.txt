@@ -1,14 +1,33 @@
 Contacts:
-    Me présenter
+X   Me présenter
 X        qui je suis
 X        quelles etudes je fais
-XX        où
+X        où
     Diplomes obtenus
 
-XCompétences:
+Compétences:
 X    Reprendre l'ensemble d'une section Compétence, voir feuille de prise de notes (verso en bas)
 X    Reprendre les section (je peux utiliser les BALISES header, footer, aside, etc)
 
+Général:
+    Réduire le texte -> Augmenter information visuelle
+X    Les coins ne sont vraiment pas obligatoires
+X        image-border marche partout (en gros)
+X    Ecrire mon année d'études (niveau)
+X            possiblement le metier que je vise
+    transpiler SCSS vers CSS
+        LiveSASS
+X    Titre par colonne
+X   1 page par projet, Reprendre page principale
+    Mon travail du Chatbot
+    Reprendre Mon Travail de BDD
+    Durée du projet Econocom
+X   Le bouton retour des pages de projets bouge
+X   Reprendre l'ensemble des liens entre les projets et les Compétences
+    Relecture
+
+
+Si le temps:    
 Projets:
     Cartes
         au clique -> Retournement/agrandissement
@@ -25,23 +44,4 @@ Projets:
             quand hover     
                 height : 400px;
             sur la face plus grande
-
-
-
-Général:
-    Réduire le texte -> Augmenter information visuelle
-X    Les coins ne sont vraiment pas obligatoires
-X        image-border marche partout (en gros)
-X    Ecrire mon année d'études (niveau)
-X            possiblement le metier que je vise
-    transpiler SCSS vers CSS
-        LiveSASS
-X    Titre par colonne
-    1 page par projet, Reprendre page principale
-    Mon travail du Chatbot
-    Reprendre Mon Travail de BDD
-    Durée du projet Econocom
-X   Le bouton retour des pages de projets bouge
-    Reprendre l'ensemble des liens entre les projets et les Compétences
-    Relecture
 
