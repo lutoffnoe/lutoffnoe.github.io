@@ -122,6 +122,10 @@ body {
                     color: #4bd8ec;
                 }
 
+                a:hover {
+                    color: red;
+                }
+
                 section {
                     display: flex;
                     flex-direction: column;
@@ -212,6 +216,11 @@ body {
                     color: red;
                 }
             }
+        }
+
+        a:hover {
+            color: red;
+            background-color: #4bd8ec;
         }
     }
 }
