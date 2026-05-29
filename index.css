@@ -158,6 +158,11 @@ body {
                     display: flex;
                     justify-content: space-evenly;
                     gap: 3px;
+
+                    li {
+                        display: grid;
+                        align-items: center;
+                    }
                 }
             }
 
