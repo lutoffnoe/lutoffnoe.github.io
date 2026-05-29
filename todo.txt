@@ -3,7 +3,7 @@ X   Me présenter
 X        qui je suis
 X        quelles etudes je fais
 X        où
-    Diplomes obtenus
+X   Diplomes obtenus
 
 Compétences:
 X    Reprendre l'ensemble d'une section Compétence, voir feuille de prise de notes (verso en bas)
@@ -19,14 +19,13 @@ X            possiblement le metier que je vise
         LiveSASS
 X    Titre par colonne
 X   1 page par projet, Reprendre page principale
-    Mon travail du Chatbot
-    Reprendre Mon Travail de BDD
-    Durée du projet Econocom
+X   Mon travail du Chatbot
+X   Reprendre Mon Travail de BDD
+X   Durée du projet Econocom
 X   Le bouton retour des pages de projets bouge
 X   Reprendre l'ensemble des liens entre les projets et les Compétences
     Relecture
-    Quelles techno pour comp 5 et 6 ?
-    Faire en sorte que TOUS les logos soient des liens vers les pages des techno
+X   Quelles techno pour comp 5 et 6 ?
 
 
 Si le temps:    
