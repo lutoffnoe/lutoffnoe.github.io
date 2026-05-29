@@ -44,7 +44,7 @@ body {
             color: #4bd8ec;
             font-size: 25pt;
             border: 1px solid rgba(255, 0, 0, 0.5);
-            padding: 5px  15px;
+            padding: 5px 15px;
             border-top-left-radius: 25%;
             border-bottom-right-radius: 25%;
         }
@@ -121,7 +121,7 @@ img {
     width: 25%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1500px) {
     body {
         display: grid;
         grid-template-columns: 1fr;
