@@ -88,6 +88,7 @@ body {
 
 
         >section {
+            width: 100%;
             border: 2px solid red;
             background-color: rgba(255, 0, 0, 0.2);
 
@@ -201,6 +202,7 @@ body {
         }
 
         a {
+            width: 100%;
             text-decoration: none;
             color: #4bd8ec;
 
