@@ -4,11 +4,11 @@ body {
     color: #4bd8ec;
     margin: 15px;
     margin-right: 0px;
-    padding: 25px;
-    padding-right: 0px;
+    padding: 2%;
+    padding-right: 1%;
     border: 5px solid red;
     border-right: none;
-    border-image: url("../img/border.png") 100;
+    border-image: url("../img/background.png") 150;
     border-image-width: 5vh 5vw;
     display: flex;
     flex-direction: row;
