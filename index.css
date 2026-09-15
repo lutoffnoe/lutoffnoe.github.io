@@ -135,7 +135,6 @@ body #Competences>section {
 body #Competences>section h2 {
     display: flex;
     align-items: center;
-    justify-content: center;
     text-align: center;
     border-bottom: solid 1px red;
     margin: 0px;
@@ -245,21 +244,27 @@ body #Projets a:hover section {
 
 @media (max-width: 900px) {
     body {
-        font: 8pt sans-serif;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+
     }
 
     body>* {
-        width: 80%;
+        margin: 2%;
+        width: 95%;
     }
 
-    body #Informations img {
-        width: 15%;
+    body #informations {
+        margin-right: 0px;
     }
+
+    body #informations>img {
+        box-sizing: border-box;
+        padding: 10%;
+    }
+
+
 
     body #Competences {
         margin-right: 0px;
