@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MS-DOS</title>
+        <link rel="stylesheet" href="projet.css">
+    </head>
+    <body>
+        <h1>MS-DOS 6.22</h1>
+        <a href="./index.html" id="Retour">
+            <button>retour</button>
+        </a>
+
+        <aside id="informations">
+            <section>
+                <h2>Nombre de personne</h2>
+                <p>1</p>
+            </section>
+            <section>
+                <h2>Durée</h2>
+                <p>1 an - en cours</p>
+            </section>
+            <section>
+                <h2>Compétences</h2>
+                <a href="./index.html#Comp1">Réaliser un développement
+                    d'application</a>
+                <a href="./index.html#Comp2">Optimiser des applications
+                    informatiques</a>
+                <a href="./index.html#Comp3">Administrer des systèmes
+                    informatiques communicants
+                    complexes</a>
+            </section>
+            <section>
+                <h2>Techniques</h2>
+                <ul>
+                    <li><img src="./img/C.svg" alt="C"></li>
+                    <li><img src="./img/Msdos.png" alt="MS-DOS"></li>
+                </ul>
+            </section>
+        </aside>
+        <section id="Description">
+
+            <section>
+                <h2>Description</h2>
+                <p>
+                    Microsoft Disk Operating System (MS-DOS) est un sytème
+                    d'exploitation des années 80 (1981) de type DOS développé
+                    par Microsoft pour l'IBM PC et les PC Clones/PC Compatibles.
+                    C'est un système d'exploitation mono-utilisateur, mono-tâche
+                    en ligne de commandes.
+                    J'ai voulu utiliser ce système d'exploitation afin de
+                    découvrir l'expérience des développeur des années 80, des
+                    premiers systèmes d'exploitations grand public et aussi car
+                    un grand nombre de jeux sortis sur DOS m'intéressent.
+                    J'avais aussi besoin d'un système permettant le formatage
+                    bas niveau des disquettes (voir <a
+                        href="atari.html#travail">la page
+                        du projet Atari ST</a>).
+                </p>
+            </section>
+            <section>
+                <h2>Mon organisation du travail</h2>
+                <p>
+                    J'ai d'abord fais un travail de recherche et de
+                    documentation afin de mieux comprendre le système
+                    d'exploitation et l'utilisation des disquettes.
+                    J'ai ensuite installé MS-DOS 6.22 fr au moyen de disquetes
+                    3.5" 1.44Mo.
+                    J'ai ensuite installé des jeux, des drivers pour la souris
+                    et le lecteur CD.
+                    Puis j'ai voulu programmer en utilisant les technologies et
+                    logiciels de l'époque.
+                </p>
+            </section>
+            <section id="travail">
+                <h2>Mon travail</h2>
+                <p>
+                    J'ai donc installé le sytème ainsi que certains drivers
+                    (souris, Lecteur/graveur CD, etc).
+                    J'ai configurer le système d'exploitation (personnalisation
+                    des fichiers CONFIG.SYS et AUTOEXEC.BAT).
+                    Puis j'ai installé l'IDE Turbo C++ 3.0 afin de programmer
+                    des logiciels en C et C++.
+                    Pour le moment, j'ai n'ai fait que des logiciels
+                    avec affichage console. Je débute l'affichage graphique VGA.
+                    J'ai utiliser le formatage bas niveau des disquettes afin de
+                    produire des disquettes urilisable tant sur DOS que sur
+                    Atari ST que sur autre plateforme. Pour cela, il faut
+                    formater les disquettes en utilisant
+                    <p>FORMAT A: /T:80 /N:9</p>
+                    afin de produire des disquettes au 720Ko format dos (80
+                    pistes, 9 secteurs) lisible par l'atari ST
+                    (pour l'utilisation de disquettes haute densité 1.44Mo,
+                    pensez à boucher le trou de la disquette face à l'onglet de
+                    protection d'écriture afin que le sytème la perçoit comme
+                    une disquet double densité 720 Ko).
+                </p>
+            </section>
+        </section>
+    </body>
+</html>
