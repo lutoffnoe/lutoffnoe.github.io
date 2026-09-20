@@ -3,6 +3,7 @@ body {
     background-color: black;
     position: relative;
     color: #4bd8ec;
+    color: white;
     margin: 15px;
     margin-right: 0px;
     padding: 3%;
@@ -80,22 +81,14 @@ body {
             margin: 3px;
         }
 
-        p {
-            color: red;
-
-
-        }
-
         a {
             text-decoration: none;
-            color: red;
         }
 
         ul {
             gap: 3px;
             list-style: none;
             padding: 0px;
-            color: red;
         }
     }
 
@@ -105,7 +98,7 @@ body {
         align-items: center;
 
         a {
-            color: #4bd8ec;
+            color: white;
             word-wrap: break-word;
         }
 
