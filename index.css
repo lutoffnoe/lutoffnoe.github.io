@@ -19,7 +19,6 @@ body {
 body * {
     min-width: 0;
     box-sizing: border-box;
-    overflow-wrap: anywhere;
 }
 
 
@@ -90,8 +89,8 @@ body #informations a img {
     width: 15%;
 }
 
-u body #informations a:hover {
-    color: red;
+body #informations a:hover {
+    background-color: red;
 }
 
 body #informations ul {
@@ -244,7 +243,7 @@ body #Projets a section h2,
 
 body #Projets a:hover section,
 #Competences a:hover section {
-    color: red;
+    background-color: rgba(255, 0, 0, 0.5);
     box-shadow: 0px 0px 3px 3px;
 }
 
@@ -277,6 +276,12 @@ body #Projets a:hover section,
         flex-direction: row;
     }
 
+    body #technos ul li{
+        border-right: 1px solid red;
+        border-left: 1px solid red;
+        border-top: 1px solid red;
+        border-bottom: 1px solid red;
+    }
 
     body #Competences {
         margin: 2%;
@@ -285,6 +290,10 @@ body #Projets a:hover section,
 
     body #Competences section {
         width: 100%;
+    }
+
+    body #Competences section h2{
+        font-size: 1rem;
     }
 
     body #Competences section a {

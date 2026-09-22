@@ -18,6 +18,7 @@ body {
 
     >* {
         min-width: 0;
+        box-sizing: border-box;
 
     }
 
@@ -153,15 +154,11 @@ img {
         grid-template-columns: 1fr;
         justify-items: center;
 
-        >* {
-            margin: 2%;
-            width: 95%;
-        }
-
         h1 {
-            margin-top: 10%;
-            font-size: 40pt;
-            font-weight: bold;
+            text-align: center;
+            font-size: 35pt;
+            width: 95%;
+            margin-top: 15%;
         }
 
         #Description {
@@ -175,8 +172,8 @@ img {
 
         #accueil {
             position: absolute;
-            top: 1%;
-            left: 1%;
+            top: 2%;
+            left: 3%;
 
             button {
                 background-color: rgba(255, 0, 0, 0.5);
