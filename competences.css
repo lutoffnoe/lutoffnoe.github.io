@@ -23,17 +23,18 @@ body {
 
 
     h1 {
-        width: 100%;
+        width: 75%;
         text-align: center;
         font-size: 50pt;
         font-weight: bold;
-        margin-top: 25px;
+        margin-right: 10%;
+        margin-left: 10%;
         color: red;
     }
 
-    #Retour {
+    #accueil {
         position: absolute;
-        top: 5%;
+        top: 3%;
         left: 3%;
 
         button {
@@ -172,7 +173,7 @@ img {
             grid-area: 3;
         }
 
-        #Retour {
+        #accueil {
             position: absolute;
             top: 1%;
             left: 1%;

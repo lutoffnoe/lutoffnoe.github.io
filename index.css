@@ -31,6 +31,7 @@ body #informations {
     align-items: center;
 }
 
+
 body #informations>* {
     width: 100%;
     background-color: rgba(255, 0, 0, 0.2);
@@ -38,9 +39,10 @@ body #informations>* {
     border-left: 4px solid red;
     border-top: 2px solid red;
     border-bottom: 2px solid red;
-    padding: 10px;
+    padding: 1%;
     margin: 0px;
 }
+
 
 body #informations>*:not(:first-child) {
     flex-grow: 1;
@@ -60,6 +62,14 @@ body #informations section {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    gap: 0px;
+}
+
+body #informations section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 0px;
 }
 
 body #informations section a {
@@ -77,17 +87,16 @@ body #informations a {
 }
 
 body #informations a img {
-    width: 25%;
+    width: 15%;
 }
 
-body #informations a:hover {
+u body #informations a:hover {
     color: red;
 }
 
 body #informations ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
     list-style-type: none;
 }
@@ -101,7 +110,7 @@ body #technos {
 
 body #technos ul {
     height: 100%;
-    width: auto;
+    width: 100%;
     background-color: rgba(255, 0, 0, 0.2);
     padding: 0px;
     margin: 0px;
@@ -113,7 +122,7 @@ body #technos ul {
 
 body #technos li {
     height: 100%;
-    width: auto;
+    width: 100%;
     border-right: 4px solid red;
     border-left: 4px solid red;
     border-top: 2px solid red;
@@ -125,7 +134,7 @@ body #technos li {
 
 body #technos li img {
     height: 100%;
-    width: auto;
+    width: 100%;
 }
 
 body #Competences {
@@ -247,13 +256,10 @@ body #Projets a:hover section,
 
     }
 
-    body>* {
-        margin: 2%;
-        width: 95%;
-    }
 
     body #informations {
-        margin-right: 0px;
+        width: 95%;
+        margin: 2%;
     }
 
     body #informations>img {
@@ -261,27 +267,33 @@ body #Projets a:hover section,
         padding: 10%;
     }
 
+    body #technos {
+        margin: 2%;
+        width: 95%;
+    }
+
+
+    body #technos ul {
+        flex-direction: row;
+    }
 
 
     body #Competences {
-        margin-right: 0px;
-        margin-bottom: 0px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        margin: 2%;
+        width: 95%;
     }
 
-    body #Competences h1 {
-        grid-column: 1 / span 2;
-
+    body #Competences section {
+        width: 100%;
     }
 
-
-    body #Competences footer ul {
-        flex-wrap: wrap;
+    body #Competences section a {
+        width: 100%;
     }
 
     body #Projets {
-        margin-right: 0px;
+        margin: 2%;
+        width: 95%;
         justify-content: center;
     }
 }
