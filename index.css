@@ -33,7 +33,7 @@ body #informations {
 
 body #informations>* {
     width: 100%;
-    background-color: rgba(255, 0, 0, 0.2);
+    /*background-color: rgba(255, 0, 0, 0.2);*/
     border-right: 4px solid red;
     border-left: 4px solid red;
     border-top: 2px solid red;
@@ -94,10 +94,15 @@ body #informations a:hover {
 }
 
 body #informations ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     list-style-type: none;
+}
+
+body #informations ul li {
+    width: 50%;
 }
 
 body #technos {
@@ -105,22 +110,22 @@ body #technos {
     margin-right: 30px;
     padding: 0px;
     flex-grow: 1;
+    
 }
 
 body #technos ul {
     height: 100%;
     width: 100%;
-    background-color: rgba(255, 0, 0, 0.2);
+    /*background-color: rgba(255, 0, 0, 0.2);*/
     padding: 0px;
     margin: 0px;
     list-style-type: none;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 
 body #technos li {
-    height: 100%;
     width: 100%;
     border-right: 4px solid red;
     border-left: 4px solid red;
@@ -129,10 +134,10 @@ body #technos li {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 body #technos li img {
-    height: 100%;
     width: 100%;
 }
 
@@ -229,7 +234,7 @@ body #Projets a section,
     border-left: 4px solid red;
     border-top: 2px solid red;
     border-bottom: 2px solid red;
-    background-color: rgba(255, 0, 0, 0.2);
+    /*background-color: rgba(255, 0, 0, 0.2);*/
     text-align: center;
 }
 
@@ -272,8 +277,8 @@ body #Projets a:hover section,
     }
 
 
-    body #technos ul {
-        flex-direction: row;
+    body #technos ul li {
+        width: 14%;
     }
 
     body #technos ul li{
@@ -293,6 +298,7 @@ body #Projets a:hover section,
     }
 
     body #Competences section h2{
+        line-break: anywhere;
         font-size: 1rem;
     }
 
